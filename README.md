@@ -2,7 +2,7 @@
 ## _**By Shachar Tsrafati aka ShacharTs**_
 ### **Basic mod that add the option to modify baby villager grow cooldown**
 
-![Logo.png](Logo.png)
+![Logo1.png](Logo1.png)
 
 **Commands**
 ======
