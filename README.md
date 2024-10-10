@@ -13,9 +13,10 @@
 4. **/resetvillagercooldown : : Reset villager grow time to default**
 
 
-# Found bug?, Mod outdated ?
-### Contact me
-
+# Found bug? <br> Mod outdated ?
+## Contact me
+I am a university student <br>
+Therefore, I will not follow up on updates without contacting me
 * Email : Shachar.ts1@gmail.com
 * Discord : ShacharTs
 
