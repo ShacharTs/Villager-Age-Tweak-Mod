@@ -1,6 +1,6 @@
 ## **Villager Growth Control**
 ## _**By Shachar Tsrafati aka ShacharTs**_
-### **Basic mod that add the option to modfiy baby villager grow cooldown**
+### **Basic mod that add the option to modify baby villager grow cooldown**
 
 **Commands**
 ======
@@ -16,3 +16,7 @@ Foundbug ?
 ## Contact me
 * Email : Shachar.ts1@gmail.com
 * Discord : ShacharTs
+
+Special Thanks
+=
+[N4meless24 Discord](https://discord.com/invite/vuen7NYsCA) for choosing name

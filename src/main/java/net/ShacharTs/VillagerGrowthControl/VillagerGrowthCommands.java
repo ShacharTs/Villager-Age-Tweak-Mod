@@ -61,7 +61,7 @@ public class VillagerGrowthCommands {
             context.getSource().sendSystemMessage(Component.literal("Villager cooldown has been reset to default (20 mins)").withStyle(ChatFormatting.DARK_RED));
             return Command.SINGLE_SUCCESS;
         }));
-        event.getDispatcher().register(Commands.literal("fasterbabycommands").executes(context -> {
+        event.getDispatcher().register(Commands.literal("villagergrowthcontrollist").executes(context -> {
             context.getSource().sendSystemMessage(Component.literal("List of the commands").withStyle(ChatFormatting.GOLD));
             context.getSource().sendSystemMessage(Component.literal("/changevillagercooldown -> Change villager grow time").withStyle(ChatFormatting.YELLOW));
             context.getSource().sendSystemMessage(Component.literal("/checkvillagercooldown -> Check villager grow time ").withStyle(ChatFormatting.YELLOW));
