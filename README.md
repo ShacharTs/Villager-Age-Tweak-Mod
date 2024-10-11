@@ -24,4 +24,4 @@ Special Thanks
 =
 [N4meless24 Discord](https://discord.com/invite/vuen7NYsCA) for choosing name
 
-Eliot aka  __**"__eliot"**__ (Discord) for ideas
+Eliot aka  __**"__eliot"**__ (Discord) for feedback
