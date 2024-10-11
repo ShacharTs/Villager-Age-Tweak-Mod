@@ -1,4 +1,4 @@
-package net.ShacharTs.VillagerGrowthControl;
+package net.ShacharTs.VillagerAgeTweak;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
@@ -15,14 +15,14 @@ import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import org.jetbrains.annotations.NotNull;
 
-import static net.ShacharTs.VillagerGrowthControl.Config.defaultCoolDown;
+import static net.ShacharTs.VillagerAgeTweak.Config.defaultCoolDown;
 
 
-@Mod(VillagerGrowthCommands.MOD_ID)
-public class VillagerGrowthCommands {
-    public static final String MOD_ID = "villagergrowthcontrolshacharts";
+@Mod(VillagerAgeCommands.MOD_ID)
+public class VillagerAgeCommands {
+    public static final String MOD_ID = "villageragetweakshacharts";
 
-    public VillagerGrowthCommands(ModContainer modContainer) {
+    public VillagerAgeCommands(ModContainer modContainer) {
         // Register event bus
         NeoForge.EVENT_BUS.register(this);
         // Register the configuration for the COMMON type (ensure it registers early in the mod lifecycle)
@@ -61,7 +61,7 @@ public class VillagerGrowthCommands {
             context.getSource().sendSystemMessage(Component.literal("Villager cooldown has been reset to default (20 mins)").withStyle(ChatFormatting.DARK_RED));
             return Command.SINGLE_SUCCESS;
         }));
-        event.getDispatcher().register(Commands.literal("villagergrowthcontrollist").executes(context -> {
+        event.getDispatcher().register(Commands.literal("villageragetweaklist").executes(context -> {
             context.getSource().sendSystemMessage(Component.literal("List of the commands").withStyle(ChatFormatting.GOLD));
             context.getSource().sendSystemMessage(Component.literal("/changevillagercooldown -> Change villager grow time").withStyle(ChatFormatting.YELLOW));
             context.getSource().sendSystemMessage(Component.literal("/checkvillagercooldown -> Check villager grow time ").withStyle(ChatFormatting.YELLOW));

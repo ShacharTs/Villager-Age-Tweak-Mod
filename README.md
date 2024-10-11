@@ -1,13 +1,13 @@
-# **Villager Growth Control**
+# **Villager Age Tweak**
 ## _**By Shachar Tsrafati aka ShacharTs**_
 ### **Basic mod that add the option to modify baby villager grow cooldown**
 
-![Logo1.png](Logo1.png)
+![Logo3.png](Logo3.png)
 
 **Commands**
 ======
 
-1. **/villagergrowthcontrollist : Command list**
+1. **/villageragetweaklist : Command list**
 2. **/changevillagercooldown  : Change villager grow time**
 3. **/checkvillagercooldown : Check villager grow time**
 4. **/resetvillagercooldown : : Reset villager grow time to default**
