@@ -18,7 +18,7 @@ public class Config {
      //Define the cooldown time in the config
     public static final ModConfigSpec.IntValue COOLDOWN_TIME = BUILDER
             .comment("Cooldown time for baby villagers to grow up (in seconds)")
-            .defineInRange("cooldownTime", defaultCoolDown, 1, 1200);  // Default is 100 seconds
+            .defineInRange("cooldownTime", defaultCoolDown, 1, 1200);  // Default is 1200 seconds
 
     // Build the config
     public static final ModConfigSpec SPEC = BUILDER.build();
