@@ -17,7 +17,7 @@
 ## Contact me
 I am a university student <br>
 Therefore, I will not follow up on updates without contacting me
-* Email : Shachar.ts1@gmail.com
+* Email : Shachar.ts8@gmail.com
 * Discord : ShacharTs
 
 Special Thanks
